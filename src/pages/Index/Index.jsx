@@ -12,7 +12,7 @@ const arrShampoo = [
   },
   {
     img: shampoo1Image,
-    title: 'Шампунь',
+    title: 'Шампунь ',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
     priceOne: 200,
   },
