@@ -1,0 +1,226 @@
+* {
+    font-family: 'SF UI Display';
+}
+
+.Shampoo_block {
+    background: #F8FAFC; // TODO: #47494b
+    border-radius: 25px;
+    width: 573px;
+    // height: 707px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.upper_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 89%;
+    padding: 0px 30px;
+    margin-top: 43px;
+}
+
+.new_block {
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 5px 20px 4px 20px;
+    margin-top: 11px;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.img_block {
+    width: 256px;
+    height: 261px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 100%;
+}
+
+.scales_img {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: .25s;
+}
+
+.scales_img:hover {
+    background: #F9FAFC;
+}
+
+.scales_img_size {
+    height: 16px;
+    width: 16px;
+    transition: .25s;
+    position: absolute;
+}
+
+.scales_img_size__active {
+    transform: scale(1);
+}
+
+.scales_img_size__no_active {
+    transform: scale(0); 
+}
+
+.title {
+    margin: 25px 0 10px 0;
+    font-family:'SF UI Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* #2C2C2C */
+
+    color: #2C2C2C;
+}
+
+.text {
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 43px 0 45px;
+    color: #2C2C2C;
+}
+
+.down_block { 
+    margin: 20px 20px 37px 20px;
+    width: 89%;
+}
+
+.color_and_price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px 0 15px;
+}
+
+.controlClassDropDown {
+    width: 238px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.menuClassName {
+    position: absolute;
+    z-index: 1;
+}
+
+.menuClassName > div{
+    width: 238px;
+    height: 30px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.menuClassName >div:last-child {
+    border-radius: 0 0 15px 15px;
+}
+
+.arrow_dropdown {
+    margin-right: 12px;
+}
+
+.radio_block {
+    display: flex;
+    margin: 10px 0;
+}
+
+.dropDownRoot {
+    position: relative;
+}
+
+.checkbox {
+    margin: 15px 0 25px 38px;
+}
+
+.submit_block {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.count_items {
+    display: flex;
+    background: #E2E9F0;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2C2C;
+
+    transition: .25s;
+}
+
+.count_items:hover {
+    background: #D8E3EE;
+}
+
+.count_items > div {
+    margin: 7.5px;
+}
+
+.count_items > .count_item_sign {
+    margin: 7.5px 11.6px;
+    cursor: pointer;
+}
+
+.submit_btn {
+    width: 302px;
+    height: 39px;
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    border-radius: 30px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 31px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.submit_btn:hover {
+    background: linear-gradient(261.65deg, #E9B32C -3.95%, #BF911A 109.44%);
+}
+
+.submit_btn:active {
+    background: linear-gradient(261.65deg, #FFD773 -3.95%, #E2B645 109.44%);
+}
